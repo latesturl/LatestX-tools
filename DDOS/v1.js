@@ -4,7 +4,7 @@ const { randomInt, randomBytes } = require('crypto');
 
 // KONFIGURASI
 const config = {
-  TARGET_URL: 'TARGET', // Ganti dengan URL target
+  TARGET_URL: 'localhost:3000', // Ganti dengan URL target
   MAX_REQUESTS: 9999999999,
   DELAY_MIN_MS: 5,
   DELAY_MAX_MS: 10,
